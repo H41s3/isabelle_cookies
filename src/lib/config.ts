@@ -2,7 +2,7 @@ import { SiteConfig } from '@/types'
 
 export const siteConfig: SiteConfig = {
   title: 'Isabelle Cookies',
-  description: 'Artisanal bakery delights made with love and the finest ingredients in our home kitchen. From cookies to cakes, pastries to breads - discover our new home bakery and delicious baked goods.',
+  description: 'Artisanal bakery delights made with love and the finest ingredients in our home kitchen. From cookies to cakes, pastries to breads - order online and enjoy fresh baked goods delivered to your door or pickup from our new home bakery!',
   url: 'https://isabellecookies.com',
   author: 'Isabelle',
   socials: {

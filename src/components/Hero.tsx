@@ -13,7 +13,7 @@ export default function Hero() {
           
           <p className="text-xl md:text-2xl text-text-muted dark:text-gray-300 mb-8 leading-relaxed">
             Artisanal bakery delights made with love and the finest ingredients in our home kitchen. 
-            From cookies to cakes, pastries to breads - every bite tells a story of tradition, passion, and pure deliciousness.
+            From cookies to cakes, pastries to breads - order online and enjoy fresh baked goods delivered to your door or pickup from our home kitchen!
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -21,7 +21,7 @@ export default function Hero() {
               Explore Our Offerings
             </Link>
             <Link href="/find-us/" className="btn-secondary text-lg px-8 py-3">
-              How to Order
+              Order Online
             </Link>
           </div>
           

@@ -17,7 +17,7 @@ export default async function BlogPage() {
           </h1>
           <p className="text-xl text-text-muted dark:text-gray-300 max-w-3xl mx-auto">
             Stay updated with our latest pastries, cookies, cakes, events, behind-the-scenes stories, and everything 
-            happening at Isabelle Cookies.
+            happening at Isabelle Cookies. Order online through our social media or call us!
           </p>
         </div>
       </section>

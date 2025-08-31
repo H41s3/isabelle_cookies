@@ -20,7 +20,7 @@ export default function Footer() {
             </Link>
             <p className="text-text-muted dark:text-gray-400 mb-4 max-w-md">
               Artisanal bakery delights made with love and the finest ingredients in our home kitchen. 
-              From cookies to cakes, pastries to breads - discover our new home bakery and delicious baked goods.
+              From cookies to cakes, pastries to breads - order online and enjoy fresh baked goods delivered to your door or pickup from our new home bakery!
             </p>
             <div className="flex space-x-4">
               <a

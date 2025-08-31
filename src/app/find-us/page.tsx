@@ -16,8 +16,8 @@ export default function FindUsPage() {
             Find Us
           </h1>
           <p className="text-xl text-text-muted dark:text-gray-300 max-w-3xl mx-auto">
-            We're a new, passionate home bakery just starting our sweet journey! 
-            Every pastry, cookie, cake, and bread is made with love in our home kitchen.
+            We're a new, passionate online home bakery just starting our sweet journey! 
+            Order through social media or phone, then enjoy fresh pastries, cookies, cakes, and breads delivered to your door or pickup from our home kitchen.
           </p>
         </div>
       </section>
@@ -46,7 +46,7 @@ export default function FindUsPage() {
                       {siteConfig.address}
                     </p>
                     <p className="text-sm text-text-muted dark:text-gray-400 mt-2">
-                      (Home-based bakery - please call ahead to arrange pickup)
+                      (Online home bakery - order through social media or phone, then pickup or delivery)
                     </p>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ export default function FindUsPage() {
                       {siteConfig.hours}
                     </div>
                     <p className="text-sm text-text-muted dark:text-gray-400 mt-2">
-                      (Flexible hours - please call to confirm availability)
+                      (Online ordering available anytime - baking hours may vary)
                     </p>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ export default function FindUsPage() {
                       {siteConfig.phone}
                     </a>
                     <p className="text-sm text-text-muted dark:text-gray-400 mt-2">
-                      (Call or message to place orders and arrange pickup)
+                      (Order through social media, phone, or message - pickup or delivery available)
                     </p>
                   </div>
                 </div>
@@ -107,9 +107,9 @@ export default function FindUsPage() {
                   <p className="text-text-muted dark:text-gray-300">
                     Villacorte St., San Juan, San Miguel, Bulacan, Philippines
                   </p>
-                  <p className="text-sm text-text-muted dark:text-gray-400 mt-2">
-                    🆕 New home bakery - growing our business with love!
-                  </p>
+                                       <p className="text-sm text-text-muted dark:text-gray-400 mt-2">
+                       🆕 New online home bakery - order anytime, enjoy fresh treats!
+                     </p>
                 </div>
               </div>
             </div>
@@ -122,11 +122,11 @@ export default function FindUsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-serif text-3xl font-bold text-text dark:text-white mb-4">
-              How to Order
+              How to Order Online
             </h2>
             <p className="text-xl text-text-muted dark:text-gray-300 max-w-2xl mx-auto">
-              Since we're just starting out as a home bakery, here's how you can order 
-              our delicious treats.
+              Since we're an online home bakery, here's how you can order 
+              our delicious treats from anywhere!
             </p>
           </div>
           
@@ -137,13 +137,13 @@ export default function FindUsPage() {
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                 </svg>
               </div>
-              <h3 className="font-serif text-xl font-semibold text-text dark:text-white mb-2">
-                Call or Message
-              </h3>
-              <p className="text-text-muted dark:text-gray-300">
-                Give us a call or send us a message on social media to place your order. 
-                We'll discuss what you'd like and when you need it.
-              </p>
+                              <h3 className="font-serif text-xl font-semibold text-text dark:text-white mb-2">
+                  Order Online
+                </h3>
+                <p className="text-text-muted dark:text-gray-300">
+                  Order through our social media pages (Instagram, Facebook) or give us a call. 
+                  We'll discuss what you'd like and arrange delivery or pickup.
+                </p>
             </div>
             
             <div className="text-center">
@@ -152,13 +152,13 @@ export default function FindUsPage() {
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd"/>
                 </svg>
               </div>
-              <h3 className="font-serif text-xl font-semibold text-text dark:text-white mb-2">
-                Fresh Baking
-              </h3>
-              <p className="text-text-muted dark:text-gray-300">
-                We'll bake your order fresh in our home kitchen, usually the same day 
-                or next day depending on your needs.
-              </p>
+                              <h3 className="font-serif text-xl font-semibold text-text dark:text-white mb-2">
+                  Fresh Baking
+                </h3>
+                <p className="text-text-muted dark:text-gray-300">
+                  We'll bake your order fresh in our home kitchen, usually the same day 
+                  or next day depending on your needs and delivery schedule.
+                </p>
             </div>
             
             <div className="text-center">
@@ -167,13 +167,13 @@ export default function FindUsPage() {
                   <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"/>
                 </svg>
               </div>
-              <h3 className="font-serif text-xl font-semibold text-text dark:text-white mb-2">
-                Pickup Arrangement
-              </h3>
-              <p className="text-text-muted dark:text-gray-300">
-                Arrange a convenient pickup time at our home location. 
-                We'll have your order ready and waiting for you.
-              </p>
+                              <h3 className="font-serif text-xl font-semibold text-text dark:text-white mb-2">
+                  Delivery or Pickup
+                </h3>
+                <p className="text-text-muted dark:text-gray-300">
+                  Choose between convenient delivery to your door or pickup from our home kitchen. 
+                  We'll coordinate the best option for you.
+                </p>
             </div>
           </div>
         </div>
@@ -187,8 +187,8 @@ export default function FindUsPage() {
               What to Expect
             </h2>
             <p className="text-xl text-text-muted dark:text-gray-300 max-w-2xl mx-auto">
-              As a new home bakery, we're building our business with every order. 
-              Here's what you can expect from us.
+              As a new online home bakery, we're building our business with every order. 
+              Here's what you can expect from our online ordering experience.
             </p>
           </div>
           
@@ -203,7 +203,7 @@ export default function FindUsPage() {
                     Personal Service
                   </h3>
                   <p className="text-text-muted dark:text-gray-300">
-                    Since we're just starting, every order gets our personal attention and care.
+                    Since we're just starting, every online order gets our personal attention and care.
                   </p>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export default function FindUsPage() {
                     Flexible Orders
                   </h3>
                   <p className="text-text-muted dark:text-gray-300">
-                    We can accommodate special requests and dietary needs as we build our menu.
+                    We can accommodate special requests and dietary needs as we build our online menu.
                   </p>
                 </div>
               </div>
@@ -275,7 +275,7 @@ export default function FindUsPage() {
                     Future Growth
                   </h3>
                   <p className="text-text-muted dark:text-gray-300">
-                    As we grow, we hope to offer delivery, more flavors, and maybe even a storefront someday!
+                    As we grow, we hope to offer more delivery options, more flavors, and maybe even a storefront someday!
                   </p>
                 </div>
               </div>
@@ -288,10 +288,10 @@ export default function FindUsPage() {
       <section className="py-16 bg-secondary dark:bg-gray-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-3xl font-bold text-text dark:text-white mb-6">
-            Ready to Try Our Home-Baked Treats?
+            Ready to Order Our Home-Baked Treats Online?
           </h2>
           <p className="text-xl text-text-muted dark:text-gray-300 mb-8">
-            We're excited to share our passion for baking with you! Give us a call or message us to start your order.
+            We're excited to share our passion for baking with you! Order through social media or call us to start your order.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -300,6 +300,14 @@ export default function FindUsPage() {
               className="btn-primary text-lg px-8 py-3"
             >
               Call to Order
+            </a>
+            <a
+              href={siteConfig.socials.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-lg px-8 py-3"
+            >
+              Order on Instagram
             </a>
             <a
               href={siteConfig.socials.instagram}

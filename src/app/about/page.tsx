@@ -17,7 +17,7 @@ export default function AboutPage() {
           </h1>
           <p className="text-xl text-text-muted dark:text-gray-300 max-w-3xl mx-auto">
             From our family kitchen to your table, discover the passion and tradition 
-            behind every pastry, cookie, cake, and bread we bake in our new home bakery.
+            behind every pastry, cookie, cake, and bread we bake in our new online home bakery.
           </p>
         </div>
       </section>
@@ -36,7 +36,7 @@ export default function AboutPage() {
                 grandmother's love for baking has grown into a passion that we're excited to share with our community.
               </p>
               <p className="text-lg text-text-muted dark:text-gray-300 mb-6 leading-relaxed">
-                We're just starting our journey as a home bakery with a simple mission: to create baked goods 
+                We're just starting our journey as an online home bakery with a simple mission: to create baked goods 
                 that taste like they were made with love in your own kitchen. Every recipe has been 
                 passed down through generations, perfected over time, and made with the finest ingredients.
               </p>
