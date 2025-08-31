@@ -257,10 +257,10 @@ export default async function HomePage() {
       <section className="py-16 bg-secondary dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-text dark:text-white mb-6">
-            Visit Our Bakery
+            Order from Our Home Kitchen
           </h2>
           <p className="text-xl text-text-muted dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-            Experience the warm, welcoming atmosphere of our bakery and taste our pastries, cookies, cakes, and breads fresh from the oven
+            We're a new home bakery just starting out! Order our fresh pastries, cookies, cakes, and breads made with love in our home kitchen
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
@@ -300,12 +300,12 @@ export default async function HomePage() {
             </div>
           </div>
           
-          <a
-            href="/find-us/"
-            className="btn-primary text-lg px-8 py-3"
-          >
-            Get Directions
-          </a>
+                      <a
+              href="/find-us/"
+              className="btn-primary text-lg px-8 py-3"
+            >
+              How to Order
+            </a>
         </div>
       </section>
     </>

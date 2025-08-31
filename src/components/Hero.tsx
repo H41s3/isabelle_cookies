@@ -12,16 +12,16 @@ export default function Hero() {
           </h1>
           
           <p className="text-xl md:text-2xl text-text-muted dark:text-gray-300 mb-8 leading-relaxed">
-            Artisanal bakery delights made with love and the finest ingredients. 
+            Artisanal bakery delights made with love and the finest ingredients in our home kitchen. 
             From cookies to cakes, pastries to breads - every bite tells a story of tradition, passion, and pure deliciousness.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Link href="/blog/" className="btn-primary text-lg px-8 py-3">
-              Explore Our Bakery
+              Explore Our Offerings
             </Link>
             <Link href="/find-us/" className="btn-secondary text-lg px-8 py-3">
-              Visit Our Bakery
+              How to Order
             </Link>
           </div>
           

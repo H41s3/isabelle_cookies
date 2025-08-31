@@ -16,8 +16,8 @@ export default function AboutPage() {
             Our Story
           </h1>
           <p className="text-xl text-text-muted dark:text-gray-300 max-w-3xl mx-auto">
-            From a small family kitchen to a beloved local bakery, discover the passion and tradition 
-            behind every pastry, cookie, cake, and bread we bake.
+            From our family kitchen to your table, discover the passion and tradition 
+            behind every pastry, cookie, cake, and bread we bake in our new home bakery.
           </p>
         </div>
       </section>
@@ -33,17 +33,17 @@ export default function AboutPage() {
               <p className="text-lg text-text-muted dark:text-gray-300 mb-6 leading-relaxed">
                 Isabelle Cookies was born in the heart of our family kitchen, where the aroma of 
                 freshly baked pastries, cookies, cakes, and breads filled the air every Sunday afternoon. What started as a 
-                grandmother's love for baking has grown into a passion that we share with our community.
+                grandmother's love for baking has grown into a passion that we're excited to share with our community.
               </p>
               <p className="text-lg text-text-muted dark:text-gray-300 mb-6 leading-relaxed">
-                In 2010, we opened our first small bakery with a simple mission: to create baked goods 
+                We're just starting our journey as a home bakery with a simple mission: to create baked goods 
                 that taste like they were made with love in your own kitchen. Every recipe has been 
                 passed down through generations, perfected over time, and made with the finest ingredients.
               </p>
               <p className="text-lg text-text-muted dark:text-gray-300 leading-relaxed">
-                Today, we continue that tradition, baking with the same care and attention to detail 
+                As we begin this exciting adventure, we're baking with the same care and attention to detail 
                 that our grandmother taught us. Every pastry, cookie, cake, and bread tells a story of tradition, passion, 
-                and pure deliciousness.
+                and pure deliciousness - and we can't wait to share it with you!
               </p>
             </div>
             
