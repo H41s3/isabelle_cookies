@@ -12,16 +12,17 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@mdx-js/react": "^3.0.0",
     "@mdx-js/loader": "^3.0.0",
-    "gray-matter": "^4.0.3",
-    "remark": "^15.0.1",
-    "remark-html": "^16.0.1",
-    "rehype-sanitize": "^6.0.0",
+    "@mdx-js/react": "^3.0.0",
     "date-fns": "^3.3.1",
+    "gray-matter": "^4.0.3",
     "next": "^14.2.5",
+    "postcss-value-parser": "^4.2.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "rehype-sanitize": "^6.0.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
@@ -36,7 +37,13 @@
     "tailwindcss": "^3.4.3",
     "typescript": "^5.5.3"
   },
-  "keywords": ["blog", "cookies", "nextjs", "static", "mdx"],
+  "keywords": [
+    "blog",
+    "cookies",
+    "nextjs",
+    "static",
+    "mdx"
+  ],
   "author": "Isabelle Cookies",
   "license": "MIT"
 }

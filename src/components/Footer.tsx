@@ -66,18 +66,18 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/about/" className="text-text-muted hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors duration-200">
+                <Link href="/#about" className="text-text-muted hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors duration-200">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/blog/" className="text-text-muted hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors duration-200">
-                  Blog
+                <Link href="/#offers" className="text-text-muted hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors duration-200">
+                  Our Offerings
                 </Link>
               </li>
               <li>
-                <Link href="/find-us/" className="text-text-muted hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors duration-200">
-                  Find Us
+                <Link href="/#contact" className="text-text-muted hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors duration-200">
+                  Contact Us
                 </Link>
               </li>
               <li>

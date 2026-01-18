@@ -17,10 +17,10 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Link href="/blog/" className="btn-primary text-lg px-8 py-3">
+            <Link href="/#offers" className="btn-primary text-lg px-8 py-3">
               Explore Our Offerings
             </Link>
-            <Link href="/find-us/" className="btn-secondary text-lg px-8 py-3">
+            <Link href="/#contact" className="btn-secondary text-lg px-8 py-3">
               Order Online
             </Link>
           </div>

@@ -1,7 +1,5 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import { Post } from '@/types'
-import { formatDate, calculateReadTime } from '@/lib/utils'
 import { categoryColors as categoryColorMap } from '@/lib/config'
 
 interface PostCardProps {
@@ -34,25 +32,17 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
       )}
       
       <div className="p-6">
-        <div className="flex items-center space-x-2 text-sm text-text-muted mb-3">
-          <time dateTime={post.date}>{formatDate(post.date)}</time>
-          <span>•</span>
-          <span>{post.readTime} min read</span>
-        </div>
-        
         <h3 className={`font-serif font-bold text-text dark:text-white mb-3 ${
           featured ? 'text-2xl' : 'text-xl'
         }`}>
-          <Link href={`/blog/${post.slug}/`} className="hover:text-primary transition-colors duration-200">
-            {post.title}
-          </Link>
+          {post.title}
         </h3>
         
         <p className="text-text-muted dark:text-gray-400 mb-4 line-clamp-3">
           {post.description}
         </p>
         
-        <div className="flex items-center justify-between">
+        {post.tags && post.tags.length > 0 && (
           <div className="flex flex-wrap gap-2">
             {post.tags.slice(0, 3).map((tag) => (
               <span
@@ -63,14 +53,7 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
               </span>
             ))}
           </div>
-          
-          <Link
-            href={`/blog/${post.slug}/`}
-            className="text-primary hover:text-primary-dark font-medium transition-colors duration-200"
-          >
-            Read more →
-          </Link>
-        </div>
+        )}
       </div>
     </article>
   )
