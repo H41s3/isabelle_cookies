@@ -61,12 +61,7 @@ You can deploy the contents of the `out/` folder to any static hosting (Netlify,
 
 ### 👀 Preview
 
-![Isabelle Cookies landing page preview](./public/preview.gif)
-
-- A **hero banner** welcoming visitors to Isabelle Cookies with two main buttons  
-- A **Featured Offerings** section showing 3 cards with images, tags, and descriptions  
-- An **Our Story** block describing how the home bakery started  
-- A **Contact / Order Now** panel with the home‑kitchen location, phone, and Instagram link  
+![Isabelle Cookies landing page preview](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHhqcXNtb2YzZ2EzZWdyemxhMjhwODNmdnU1ZnI0MjR1a2FpaGUzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26xBKmPkJLYvGV9yE/giphy.gif)
 
 ---
 
