@@ -59,8 +59,6 @@ npm run export   # static files will be in the out/ directory
 
 You can deploy the contents of the `out/` folder to any static hosting (Netlify, Vercel, cPanel, etc.).
 
-### 👀 Preview
-
 ![Isabelle Cookies landing page preview](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHhqcXNtb2YzZ2EzZWdyemxhMjhwODNmdnU1ZnI0MjR1a2FpaGUzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26xBKmPkJLYvGV9yE/giphy.gif)
 
 ---
